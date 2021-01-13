@@ -34,7 +34,20 @@ main {
     width: 90%;
     max-width: 600px;
     margin-right: auto;
-    margin-left: 10px;
+    padding: 0px 20px;
+    /* margin-left: 10px; */
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+    .page-size-limiter {
+        width: auto;
+        padding-left: 10px;
+        margin: 0px;
+        padding: 0px 30px;
+    }
 }
 
 hr {
@@ -49,18 +62,25 @@ ul {
     list-style-type: none;
 }
 
-:not(.menu)>ul>li{
+.linklist>li {
+    margin-bottom: 1rem;
+}
+
+.linklist a {
+    font-weight: bold;
+}
+
+:not(.menu)>ul>li {
     width: 100%;
 }
 
 :not(.menu)>ul>li::before {
     content: "-";
-    margin-right: 9px;
 }
 
 a {
     text-decoration: underline;
-    color: #DBDBDB
+    color: #DBDBDB;
 }
 
 a[href]:hover {
@@ -68,7 +88,7 @@ a[href]:hover {
     background-color: #DBDBDB
 }
 
-a:not([href]):hover{
+a:not([href]):hover {
     color: red;
 }
 
@@ -78,16 +98,16 @@ h3,
 h4,
 h5,
 h6 {
- font-size:12.5px;
- margin:0px;
- margin-top:22px;
- font-weight:bold;
- color:#DBDBDB
+    font-size: 12.5px;
+    margin: 0px;
+    margin-top: 22px;
+    font-weight: bold;
+    color: #DBDBDB
 }
 
 span.workingon {
-    margin-left: 10px;
-    text-align: right;
+    display: block;
+    color: rgb(173, 255, 173);
 }
 
 span.workingon:before {
@@ -95,15 +115,21 @@ span.workingon:before {
     margin-right: 6px;
     animation-name: activedot;
     animation-duration: 3s;
-    animation-iteration-count:infinite;
+    animation-iteration-count: infinite;
 }
 
 @keyframes activedot {
-    0% {color: black;}
-    50% {color: rgb(0, 255, 0);}
-    100% {color: black;}
+    0% {
+        color: black;
+    }
+    50% {
+        color: rgb(0, 255, 0);
+    }
+    100% {
+        color: black;
+    }
 }
 
 div.description {
-    margin-left: 16px;
+    /* margin-left: 16px; */
 }
