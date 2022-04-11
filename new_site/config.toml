@@ -1,8 +1,8 @@
-baseURL = "https://risotto.joeroe.io"
+baseURL = "https://piotrek-k.pl"
 theme = "risotto"
-title = "risotto demo"
-author = "Joe Roe"
-copyright = "© 2021 Joe Roe"
+title = "Piotr Kozerski"
+author = "Piotr Kozerski"
+copyright = "© 2022 Piotr Kozerski"
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -22,8 +22,8 @@ mode = "dark-mode"
 
 # Sidebar: about/bio
 [params.about]
-title = "risotto"
-description = "A [hugo](https://gohugo.io) theme inspired by terminal ricing."
+title = "Links"
+description = ""
 logo = "images/rice.svg"
 
 # Sidebar: social links
@@ -34,17 +34,12 @@ logo = "images/rice.svg"
 [[params.socialLinks]]
 icon = "fab fa-github"
 title = "GitHub"
-url = "https://github.com/joeroe/risotto"
+url = "https://github.com/piotrek-k"
 
 [[params.socialLinks]]
 icon = "fas fa-envelope"
 title = "Email"
-url = "mailto:example@example.com"
-
-[[params.socialLinks]]
-icon = "ai ai-orcid"
-title = "ORCID"
-url = "https://orcid.org/0000-0001-2345-6789"
+url = "mailto:inbox+website@kozer.ski"
 
 [menu]
 
@@ -53,6 +48,18 @@ url = "https://orcid.org/0000-0001-2345-6789"
     name = "About"
     url = "/about/"
     weight = 10
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 10
+
+  # [[menu.main]]
+  #   identifier = "links"
+  #   name = "Links"
+  #   url = "/links/"
+  #   weight = 10
 
 [taxonomies]
 category = "categories"

@@ -3,15 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://piotrek-k.pl/</loc>
+    <lastmod>2022-04-11T17:04:35+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://piotrek-k.pl/about/</loc>
+    <lastmod>2022-04-11T17:03:41+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://piotrek-k.pl/projects/project_example/</loc>
+    <lastmod>2022-04-11T17:02:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://piotrek-k.pl/projects/</loc>
+    <lastmod>2022-04-11T17:02:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://piotrek-k.pl/links/</loc>
+    <lastmod>2022-04-11T16:56:06+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://piotrek-k.pl/links/my-first-post/</loc>
+    <lastmod>2022-04-11T16:56:06+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://piotrek-k.pl/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://piotrek-k.pl/series/</loc>
+  </url>
+  
+  <url>
+    <loc>https://piotrek-k.pl/tags/</loc>
   </url>
   
 </urlset>
