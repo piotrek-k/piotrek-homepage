@@ -13,6 +13,6 @@
 }
 
 .main-nav li::marker {
-    content: "./";
+    content: "";
 }
 

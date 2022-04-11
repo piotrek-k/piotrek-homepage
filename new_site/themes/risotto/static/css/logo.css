@@ -11,8 +11,13 @@
 
 .page__logo-inner {
     display: block;
-    background: var(--green);
+    /* background: var(--green); */
+    background: #8e8e8e;
+    font-weight: bold;
     padding: 0.25rem;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 a.page__logo-inner:link, a.page__logo-inner:visited {
@@ -24,7 +29,7 @@ a.page__logo-inner:hover,
 a.page__logo-inner:active {
     background: var(--bright-green);
 }
-
+/* 
 .page__logo-inner:before {
     content: "[";
     color: var(--bg);
@@ -32,5 +37,5 @@ a.page__logo-inner:active {
 
 .page__logo-inner:after {
     content: "] $";
-    color: var(--bg);
+    color: var(--bg); */
 }

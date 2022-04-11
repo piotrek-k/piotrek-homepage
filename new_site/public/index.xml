@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio on Piotr Kozerski</title>
+    <title>Personal website on Piotr Kozerski</title>
     <link>https://piotrek-k.pl/</link>
-    <description>Recent content in Portfolio on Piotr Kozerski</description>
+    <description>Recent content in Personal website on Piotr Kozerski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Piotr Kozerski</copyright>
@@ -14,7 +14,7 @@
       <pubDate>Mon, 11 Apr 2022 17:03:41 +0200</pubDate>
       
       <guid>https://piotrek-k.pl/about/</guid>
-      <description></description>
+      <description>Website built using Hugo static site generator, theme based on risotto</description>
     </item>
     
     <item>
@@ -23,15 +23,6 @@
       <pubDate>Mon, 11 Apr 2022 17:02:33 +0200</pubDate>
       
       <guid>https://piotrek-k.pl/projects/project_example/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://piotrek-k.pl/links/my-first-post/</link>
-      <pubDate>Mon, 11 Apr 2022 16:56:06 +0200</pubDate>
-      
-      <guid>https://piotrek-k.pl/links/my-first-post/</guid>
       <description></description>
     </item>
     

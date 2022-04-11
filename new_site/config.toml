@@ -24,7 +24,7 @@ mode = "dark-mode"
 [params.about]
 title = "Links"
 description = ""
-logo = "images/rice.svg"
+# logo = "images/rice.svg"
 
 # Sidebar: social links
 # Available icon sets:

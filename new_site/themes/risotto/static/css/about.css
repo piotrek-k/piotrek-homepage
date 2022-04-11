@@ -24,3 +24,7 @@
 .aside__social-links li::marker {
     content: none;
 }
+
+.aside__about {
+    padding-bottom: 1rem;
+}
