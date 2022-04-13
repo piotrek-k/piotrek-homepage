@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://piotrek-k.pl/</loc>
+    <lastmod>2022-04-11T17:04:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://piotrek-k.pl/about/</loc>
+    <lastmod>2022-04-11T17:03:41+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://piotrek-k.pl/projects/project_example/</loc>
+    <lastmod>2022-04-11T17:02:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://piotrek-k.pl/projects/</loc>
+    <lastmod>2022-04-11T17:02:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://piotrek-k.pl/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://piotrek-k.pl/series/</loc>
+  </url>
+  
+  <url>
+    <loc>https://piotrek-k.pl/tags/</loc>
+  </url>
+  
+</urlset>
