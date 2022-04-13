@@ -41,6 +41,16 @@ icon = "fas fa-envelope"
 title = "Email"
 url = "mailto:inbox+website@kozer.ski"
 
+[[params.socialLinks]]
+icon = "fab fa-linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/piotr-kozerski/"
+
+[[params.socialLinks]]
+icon = "fab fa-stack-overflow"
+title = "StackOverflow"
+url = "https://stackoverflow.com/users/1804027/piotrek"
+
 [menu]
 
   [[menu.main]]

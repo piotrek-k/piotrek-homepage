@@ -42,8 +42,10 @@
 .page__body {
     grid-area: body;
     background-color: var(--bg);
-    box-shadow: 0 0 0 1rem var(--bg);
+    /* box-shadow: 0 0 0 1rem var(--bg); */
     overflow-wrap: break-word;
+
+    padding: 2rem;
 }
 
 .page__aside {
