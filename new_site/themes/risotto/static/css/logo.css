@@ -3,6 +3,7 @@
     margin: 0;
     font-weight: inherit;
     color: var(--bg);
+    font-size: 1rem;
 }
 
 .page__logo:before {

@@ -1,6 +1,6 @@
 baseURL = "https://piotrek-k.pl"
 theme = "risotto"
-title = "Piotr Kozerski"
+title = "piotrek-k.pl"
 author = "Piotr Kozerski"
 copyright = "© 2022 Piotr Kozerski"
 paginate = 3
