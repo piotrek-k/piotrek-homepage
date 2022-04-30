@@ -1,0 +1,50 @@
+{{ define "main" }}
+<header class="content__header">
+    <h1>{{ .Title | markdownify }}</h1>
+    {{ .Content }}
+</header>
+
+{{ range .Pages }}
+{{if not .Params.less_rel }}
+<article class="post bottom-margin">
+    <header class="post__header">
+        <b style="margin: 2rem 0 0 0;">
+            <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+        </b>
+        <!-- <p class="post__meta"> -->
+            <span class="small-date date">(last update: {{ .Date.Format "2 January 2006" }})</span>
+        <!-- </p> -->
+    </header>
+
+    <section class="post__summary">
+        <span class="small">{{ .Description }}</span>
+    </section>
+
+</article>
+{{ end }}
+{{ end }}
+
+<h2>Others</h2>
+
+{{ range .Pages }}
+{{if .Params.less_rel }}
+<article class="post bottom-margin">
+    <header class="post__header">
+        <!-- <h2 style="margin: 2rem 0 0 0;"> -->
+        <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+        <!-- </h2> -->
+        <!-- <p class="post__meta"> -->
+        <span class="small-date date">(last update: {{ .Date.Format "2 January 2006" }})</span>
+        <!-- </p> -->
+    </header>
+
+    <section class="post__summary">
+        <span class="small">{{ .Description }}</span>
+    </section>
+
+</article>
+{{ end }}
+{{ end }}
+
+
+{{ end }}

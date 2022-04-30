@@ -6,6 +6,7 @@ description: "Script organizing data from Facebook Data Copy"
 tags: [
     "websites, aspnet",
 ]
+less_rel: true
 ---
 
 <font color="red">Abandoned</font>

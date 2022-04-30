@@ -6,6 +6,7 @@ description: "Kanban board"
 tags: [
     "websites, aspnet, angular",
 ]
+less_rel: true
 ---
 
 <font color="red">Abandoned</font>
