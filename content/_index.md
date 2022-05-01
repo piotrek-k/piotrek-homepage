@@ -1,5 +1,5 @@
 ---
-title: "Personal website"
+title: "Home"
 date: 2022-04-11T17:04:35+02:00
 draft: false
 ---
