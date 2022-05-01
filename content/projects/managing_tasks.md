@@ -4,7 +4,7 @@ date: 2018-12-09
 draft: false
 description: "Kanban board"
 tags: [
-    "websites, aspnet, angular",
+    "websites", "aspnet", "angular" 
 ]
 less_rel: true
 ---

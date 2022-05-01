@@ -4,7 +4,7 @@ date: 2014-12-26
 draft: false
 description: "App for learning languages - in form of repetitive flashcards"
 tags: [
-    "websites, aspnet",
+    "websites", "aspnet", "csharp", "jquery"
 ]
 ---
 

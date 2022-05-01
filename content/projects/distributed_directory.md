@@ -4,7 +4,7 @@ date: 2020-12-14T20:21:00+01:00
 draft: false
 description: "Tool for data synchronization between computers in P2P manner"
 tags: [
-    "p2p",
+    "p2p", "csharp"
 ]
 ---
 
