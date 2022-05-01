@@ -26,3 +26,11 @@
     content: "/";
     padding: 0.3rem;
 }
+
+/*
+ * Tags
+ */
+
+ .tags-list {
+    margin: 1rem 0rem;
+ }
