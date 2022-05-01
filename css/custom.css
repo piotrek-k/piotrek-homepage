@@ -3,3 +3,34 @@
 .bottom-margin {
     margin-bottom: 0.5rem;
 }
+
+/*
+* Breadcrumb
+*/
+
+.breadcrumb {
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.breadcrumb li {
+    display: inline;
+    white-space: nowrap;
+}
+
+.breadcrumb li+li:before {
+    content: "/";
+    padding: 0.3rem;
+}
+
+/*
+ * Tags
+ */
+
+ .tags-list {
+    margin: 1rem 0rem;
+ }
