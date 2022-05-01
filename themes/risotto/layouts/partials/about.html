@@ -13,3 +13,8 @@
     </li>
     {{ end }}
 </ul>
+
+{{ if .IsSection }}
+<a href="{{ .Page.Permalink }}index.xml">RSS feed</a>
+{{end}}
+
