@@ -4,7 +4,7 @@ date: 2018-02-20
 draft: false
 description: "Script organizing data from Facebook Data Copy"
 tags: [
-    "websites", "python"
+    "python"
 ]
 less_rel: true
 ---
