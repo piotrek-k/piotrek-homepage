@@ -15,7 +15,7 @@ tags: [
 Carried out in the form of an engineering thesis.
 Program that can exchange data between computers without central server in a way similar to BitTorrent.
 
-The project was divided into three parts:
+The project has been divided into three parts:
 * Backbone - part responsible for establishing P2P network connections - fully published on Github and as NuGet package  - [more details here](/projects/p2p_network_builder)
 * Distributed directory - part described in this post - not  published online yet
 * Mobile client - based on Xamarin - [more details here](/projects/distributed_directory_mobile)
