@@ -1,0 +1,5 @@
+items:
+  - title: Google Anaytics (functional)
+    description: Used for measuring page views. As it is functional requirement, it cannot be disabled.
+    is_functional: true
+    script_file: ga.js
