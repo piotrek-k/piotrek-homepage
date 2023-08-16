@@ -1,109 +1,90 @@
-baseURL = "https://piotrek-k.pl"
-theme = "risotto"
+baseurl = "https://piotrek-k.pl"
 title = "piotrek-k.pl"
-author = "Piotr Kozerski"
-copyright = "© 2022 Piotr Kozerski"
-paginate = 3
-languageCode = "en"
-DefaultContentLanguage = "en"
-enableInlineShortcodes = true
-# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
-# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
-ignoreErrors = ["error-remote-getjson"]
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
 
-# Automatically add content sections to main menu
-sectionPagesMenu = "main"
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
 
 [params]
+  author = "Piotr Kozerski"
+  info = ".NET Developer"
+  description = "Portfolio"
+  keywords = "portfolio,developer,personal"
+  avatarurl = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
 
-[params.theme]
-palette = "gruvbox-dark"
-mode = "dark-mode"
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
 
-# Sidebar: about/bio
-[params.about]
-title = "Links"
-description = ""
-# logo = "images/rice.svg"
+  since = 2022
 
-# Sidebar: social links
-# Available icon sets:
-# * FontAwesome 5 <https://fontawesome.com/> ('fas fa-' or 'fab-fa' for brands)
-# * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
+  enableTwemoji = true
 
-[[params.socialLinks]]
-icon = "fab fa-github"
-title = "GitHub"
-url = "https://github.com/piotrek-k"
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
 
-[[params.socialLinks]]
-icon = "fas fa-envelope"
-title = "Email"
-url = "mailto:inbox+website@kozer.ski"
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
 
-[[params.socialLinks]]
-icon = "fab fa-linkedin"
-title = "LinkedIn"
-url = "https://www.linkedin.com/in/piotr-kozerski/"
+  [params.theme]
+  palette = "gruvbox-dark"
+  mode = "dark-mode"
 
-[[params.socialLinks]]
-icon = "fab fa-stack-overflow"
-title = "StackOverflow"
-url = "https://stackoverflow.com/users/1804027/piotrek"
+  # Sidebar: about/bio
+  [params.about]
+  title = "Links"
+  description = ""
+
+  [[params.socialLinks]]
+  icon = "fab fa-github"
+  title = "GitHub"
+  url = "https://github.com/piotrek-k"
+
+  [[params.socialLinks]]
+  icon = "fas fa-envelope"
+  title = "Email"
+  url = "mailto:inbox+website@kozer.ski"
+
+  [[params.socialLinks]]
+  icon = "fab fa-linkedin"
+  title = "LinkedIn"
+  url = "https://www.linkedin.com/in/piotr-kozerski/"
+
+  [[params.socialLinks]]
+  icon = "fab fa-stack-overflow"
+  title = "StackOverflow"
+  url = "https://stackoverflow.com/users/1804027/piotrek"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
 
 [menu]
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
+  # [[menu.main]]
+  #   identifier = "about"
+  #   name = "About"
+  #   url = "/about/"
+  #   weight = 1
 
   [[menu.main]]
     identifier = "projects"
     name = "Projects"
     url = "/projects/"
-    weight = 10
+    weight = 2
 
-  # [[menu.main]]
-  #   identifier = "links"
-  #   name = "Links"
-  #   url = "/links/"
-  #   weight = 10
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
-
-# For hugo >= 0.60.0, enable inline HTML
-[markup.goldmark.renderer]
-unsafe = true
-
-[privacy]
-
-  [privacy.vimeo]
-    disabled = false
-    simple = true
-
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
-
-  [privacy.instagram]
-    disabled = false
-    simple = true
-
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
-
-[services]
-
-  [services.instagram]
-    disableInlineCSS = true
-
-  [services.twitter]
-    disableInlineCSS = true
-
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 3
