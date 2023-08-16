@@ -16,7 +16,7 @@ style = "github-dark"
   info = ".NET Developer"
   description = "Portfolio"
   keywords = "portfolio,developer,personal"
-  avatarurl = "images/avatar.jpg"
+  # avatarurl = "images/avatar.jpg"
   #gravatar = "john.doe@example.com"
 
   faviconSVG = "/img/favicon.svg"
