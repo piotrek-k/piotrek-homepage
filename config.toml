@@ -6,8 +6,6 @@ defaultcontentlanguage = "en"
 
 paginate = 20
 
-disqusShortname = "yourdiscussshortname"
-
 [markup.highlight]
 style = "github-dark"
 
@@ -104,3 +102,10 @@ style = "github-dark"
 # necessary to render raw HTML
 [markup.goldmark.renderer]
 unsafe= true
+
+[params.utterances]
+  enable = true
+  repo = "piotrek-k/piotrek-k.github.io" # https://utteranc.es/#heading-repository
+  issueTerm = "pathname" # https://utteranc.es/#heading-mapping
+  label = "utterances" # https://utteranc.es/#heading-issue-label
+  theme = "preferred-color-scheme" # https://utteranc.es/#heading-theme
