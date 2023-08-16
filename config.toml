@@ -30,7 +30,7 @@ style = "github-dark"
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
-  # customCSS = ["css/custom.css"]
+  customCSS = ["css/styles.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
@@ -88,3 +88,7 @@ style = "github-dark"
     name = "Posts"
     url = "/posts/"
     weight = 3
+
+# necessary to render raw HTML
+[markup.goldmark.renderer]
+unsafe= true
