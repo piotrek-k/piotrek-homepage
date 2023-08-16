@@ -43,25 +43,37 @@ style = "github-dark"
   title = "Links"
   description = ""
 
-  [[params.socialLinks]]
-  icon = "fab fa-github"
-  title = "GitHub"
+  [[params.social]]
+  icon = "fa fa-github"
+  name = "GitHub"
   url = "https://github.com/piotrek-k"
+  weight = 1
 
-  [[params.socialLinks]]
-  icon = "fas fa-envelope"
-  title = "Email"
+  [[params.social]]
+  icon = "fa fa-envelope"
+  name = "Email"
   url = "mailto:inbox+website@kozer.ski"
+  weight = 1
 
-  [[params.socialLinks]]
-  icon = "fab fa-linkedin"
-  title = "LinkedIn"
+  [[params.social]]
+  icon = "fa fa-linkedin"
+  name = "LinkedIn"
   url = "https://www.linkedin.com/in/piotr-kozerski/"
+  weight = 1
 
-  [[params.socialLinks]]
-  icon = "fab fa-stack-overflow"
-  title = "StackOverflow"
+  [[params.social]]
+  icon = "fa fa-stack-overflow"
+  name = "StackOverflow"
   url = "https://stackoverflow.com/users/1804027/piotrek"
+  weight = 1
+
+  [[params.social]]
+  name = "RSS"
+  icon = "fa fa-rss"
+  weight = 1
+  url = "http://www.piotrek-k.pl/index.xml"
+  rel = "alternate"
+  type = "application/rss+xml"
 
 [taxonomies]
   category = "categories"
@@ -71,11 +83,11 @@ style = "github-dark"
 
 [menu]
 
-  # [[menu.main]]
-  #   identifier = "about"
-  #   name = "About"
-  #   url = "/about/"
-  #   weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
 
   [[menu.main]]
     identifier = "projects"
