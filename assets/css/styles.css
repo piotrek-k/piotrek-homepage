@@ -1,7 +1,35 @@
-.projects-table-wrapper {
+.projects-single-entry {
     display: grid;
     width: 100%;
     grid-template-columns: auto 1fr;
+}
+
+@media (max-width: 700px) {
+    .projects-single-entry {
+        grid-template-columns: auto;
+    }
+
+    .projects-single-entry {
+        margin-bottom: 2rem;
+    }
+
+    .projects-table-wrapper-date > .date {
+        font-size: small;
+    }
+}
+
+@media (min-width: 700px) {
+    .projects-single-entry {
+        grid-template-columns: auto 1fr;
+    }
+
+    .projects-single-entry {
+        margin-bottom: 1rem;
+    }
+    
+    .projects-table-wrapper-date > .date {
+        font-size: medium;
+    }
 }
 
 .projects-table-wrapper-date {
