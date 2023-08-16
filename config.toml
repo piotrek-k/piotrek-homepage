@@ -108,4 +108,4 @@ unsafe= true
   repo = "piotrek-k/piotrek-k.github.io" # https://utteranc.es/#heading-repository
   issueTerm = "pathname" # https://utteranc.es/#heading-mapping
   label = "utterances" # https://utteranc.es/#heading-issue-label
-  theme = "preferred-color-scheme" # https://utteranc.es/#heading-theme
+  theme = "auto" # https://utteranc.es/#heading-theme
